@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.keshet12-live"
+version="2.3.1"
+name="Arutz 12 LIVE"
+provider-name="sl4v">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Watch Keshet 12 Live TV Channel</summary>
+  <description lang="en_GB">Watch The Keshet 12 Israeli Channel Live.</description>
+  <disclaimer lang="en_GB">Livestream provided by mako.co.il.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot></screenshot> 
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
